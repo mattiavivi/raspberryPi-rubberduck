@@ -13,8 +13,7 @@ Scarica CircuitPython per Raspberry Pi Pico W.
 5.	Scarica adafruit-circuitpython-bundle-8.x-mpy-YYYYMMDD.zip qui ed estrailo all'esterno del dispositivo.
 6.	Passare a lib nella cartella estratta di recente e copiare adafruit_hid, asyncio, adafruit_wsgi, adafruit_debouncer.mpy e adafruit_ticks.mpy nella cartella lib sul Raspberry Pi Pico.
 7.	Scarica circuitpython-keyboard-layouts-8.x-mpy-20221209, copia dalla cartella lib i due file: keycode_win_it e keycode_layout_win_it e incollalo nella cartella lib dela raspberry. Nel file duckyinpython controlla che sono commentate le righe per usare layout US e che sia coretto le rige per usare layout IT:
-8.	
- 
+    
   #from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS as KeyboardLayout
   #from adafruit_hid.keycode import Keycode
   
